@@ -1,0 +1,142 @@
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  background-color: #ccc;
+  background-image: radial-gradient(circle, white, #ccc); }
+
+.header {
+  position: relative;
+  margin: auto;
+  -webkit-animation: fadein 1500ms ease-in-out;
+  -moz-animation: fadein 1500ms ease-in-out;
+  -ms-animation: fadein 1500ms ease-in-out;
+  animation: fadein 1500ms ease-in-out; }
+
+.title {
+  display: inline-block;
+  font-family: HelveticaNeue-Light, sans-serif;
+  text-align: center;
+  color: #555; }
+
+.buttons {
+  position: absolute;
+  display: inline-block;
+  right: 0px;
+  bottom: 0px; }
+
+button {
+  display: block;
+  border: none;
+  background: none;
+  outline: none;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 0;
+  font-family: HelveticaNeue-Light, sans-serif;
+  cursor: pointer; }
+
+.board {
+  margin: auto;
+  -webkit-animation: fadein 1500ms ease-in-out;
+  -moz-animation: fadein 1500ms ease-in-out;
+  -ms-animation: fadein 1500ms ease-in-out;
+  animation: fadein 1500ms ease-in-out; }
+  .board > :nth-child(3), .board > :nth-child(6) {
+    border-bottom: 2px solid #555; }
+
+.row:nth-child(1) .tileText {
+  -webkit-animation: fadein 1000ms ease-in-out 100ms forwards;
+  -moz-animation: fadein 1000ms ease-in-out 100ms forwards;
+  -ms-animation: fadein 1000ms ease-in-out 100ms forwards;
+  animation: fadein 1000ms ease-in-out 100ms forwards; }
+.row:nth-child(2) .tileText {
+  -webkit-animation: fadein 1000ms ease-in-out 200ms forwards;
+  -moz-animation: fadein 1000ms ease-in-out 200ms forwards;
+  -ms-animation: fadein 1000ms ease-in-out 200ms forwards;
+  animation: fadein 1000ms ease-in-out 200ms forwards; }
+.row:nth-child(3) .tileText {
+  -webkit-animation: fadein 1000ms ease-in-out 300ms forwards;
+  -moz-animation: fadein 1000ms ease-in-out 300ms forwards;
+  -ms-animation: fadein 1000ms ease-in-out 300ms forwards;
+  animation: fadein 1000ms ease-in-out 300ms forwards; }
+.row:nth-child(4) .tileText {
+  -webkit-animation: fadein 1000ms ease-in-out 400ms forwards;
+  -moz-animation: fadein 1000ms ease-in-out 400ms forwards;
+  -ms-animation: fadein 1000ms ease-in-out 400ms forwards;
+  animation: fadein 1000ms ease-in-out 400ms forwards; }
+.row:nth-child(5) .tileText {
+  -webkit-animation: fadein 1000ms ease-in-out 500ms forwards;
+  -moz-animation: fadein 1000ms ease-in-out 500ms forwards;
+  -ms-animation: fadein 1000ms ease-in-out 500ms forwards;
+  animation: fadein 1000ms ease-in-out 500ms forwards; }
+.row:nth-child(6) .tileText {
+  -webkit-animation: fadein 1000ms ease-in-out 600ms forwards;
+  -moz-animation: fadein 1000ms ease-in-out 600ms forwards;
+  -ms-animation: fadein 1000ms ease-in-out 600ms forwards;
+  animation: fadein 1000ms ease-in-out 600ms forwards; }
+.row:nth-child(7) .tileText {
+  -webkit-animation: fadein 1000ms ease-in-out 700ms forwards;
+  -moz-animation: fadein 1000ms ease-in-out 700ms forwards;
+  -ms-animation: fadein 1000ms ease-in-out 700ms forwards;
+  animation: fadein 1000ms ease-in-out 700ms forwards; }
+.row:nth-child(8) .tileText {
+  -webkit-animation: fadein 1000ms ease-in-out 800ms forwards;
+  -moz-animation: fadein 1000ms ease-in-out 800ms forwards;
+  -ms-animation: fadein 1000ms ease-in-out 800ms forwards;
+  animation: fadein 1000ms ease-in-out 800ms forwards; }
+.row:nth-child(9) .tileText {
+  -webkit-animation: fadein 1000ms ease-in-out 900ms forwards;
+  -moz-animation: fadein 1000ms ease-in-out 900ms forwards;
+  -ms-animation: fadein 1000ms ease-in-out 900ms forwards;
+  animation: fadein 1000ms ease-in-out 900ms forwards; }
+.row > :nth-child(3), .row > :nth-child(6) {
+  border-right: 2px solid #555; }
+
+.tile {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box; }
+
+.tileText {
+  font-family: HelveticaNeue-Light, sans-serif;
+  text-align: center;
+  color: #999;
+  opacity: 0; }
+
+.tileInput {
+  border: none;
+  background: none;
+  outline: none;
+  color: #555;
+  transition: background 1000ms; }
+
+.correct {
+  background: rgba(0, 200, 0, 0.5); }
+
+.incorrect {
+  background: rgba(200, 0, 0, 0.5); }
+
+/*# sourceMappingURL=main.css.map */
