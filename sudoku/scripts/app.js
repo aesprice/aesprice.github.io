@@ -146,7 +146,7 @@ Tile.prototype.init = function(){
   /** Hidden tiles get input elements, others just get text */
   var text;
   if(this._hidden){
-    text = $('<input/>').addClass('tileInput').attr('maxlength', 1).width('90%');
+    text = $('<input/>').addClass('tileInput').attr({'type': 'text', 'pattern': '[0-9]*', 'maxlength': 1}).width('90%');
     text.change(this.check.bind(this));
   }else{
     text = $('<span/>').text(this._number);
